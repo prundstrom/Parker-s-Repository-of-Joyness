@@ -9,7 +9,7 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 total = 0
 a,b = 0, 1
 
-while a<4000000:
+while a < 4000000:
   a, b = b, a + b
   if a % 2 == 0:
     total = total + a
